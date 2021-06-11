@@ -1,0 +1,12 @@
+#mainContainer {
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 70%;
+}
+
+#homeBlurb {
+  margin: auto;
+}
+

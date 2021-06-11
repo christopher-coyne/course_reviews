@@ -1,0 +1,73 @@
+.review {
+  box-shadow: 3px 3px 4px 1px #d4d4d4;
+  padding: 3rem;
+  font-family: lato;
+}
+
+.review h1 {
+  font-family: roboto slab;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.review h2 {
+  font-family: roboto slab;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+hr {
+  width: 40%;
+  color: rgb(197, 197, 197);
+  margin: auto;
+  border: none;
+  height: 2px;
+  background-color: rgb(201, 201, 201);
+}
+
+.reviewbody {
+  text-align: left;
+}
+
+.reviewdate {
+  margin: .5rem auto 0 auto;
+  font-weight: 300;
+}
+
+.reviewcontent {
+  margin: .5rem auto 0 auto;
+  color: rgb(66, 66, 66);
+}
+
+.reviewbottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.reviewbottom button {
+  border: none;
+  background-color: #30BF46;
+  font-size: 1rem;
+  color: white;
+  font-family: lato;
+  padding: .5rem .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.reviewbottom button:hover {
+  background-color: rgb(39, 156, 57);
+}
+
+.agree {
+  color: #6AD941;
+  font-family: lato;
+}
+
+.disagree {
+  color: #F03B3B;
+  font-family: lato;
+}
