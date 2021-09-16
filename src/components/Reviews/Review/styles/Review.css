@@ -1,0 +1,55 @@
+.reviewContainer {
+  box-shadow: 3px 3px 4px 1px #d4d4d4;
+  padding: 3rem 5rem;
+  font-family: lato;
+  font-size: 16px;
+  margin: 1rem;
+}
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviewAgrees {
+  display: flex;
+  justify-content: space-between;
+}
+
+.agree {
+  color: green;
+}
+
+.disagree {
+  color: red;
+  border-left: 2px solid rgb(163, 163, 163);
+  margin-left: 5px;
+}
+
+.reviewName {
+  font-size: 2rem;
+}
+
+.reviewDate {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.reviewContent {
+  text-align: left;
+}
+
+.reviewWorkload {
+  text-align: left;
+}
+
+.workloadTitle {
+  font-size: 1.25rem;
+}
+
+.agree-btn {
+  background-color: white;
+  border: 2px solid rgb(63, 63, 63);
+  color: rgb(63, 63, 63);
+  border-radius: 5px;
+  padding: 3px;
+}

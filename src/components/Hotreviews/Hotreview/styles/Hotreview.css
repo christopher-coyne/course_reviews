@@ -32,12 +32,12 @@ hr {
 }
 
 .reviewdate {
-  margin: .5rem auto 0 auto;
+  margin: 0.5rem auto 0 auto;
   font-weight: 300;
 }
 
 .reviewcontent {
-  margin: .5rem auto 0 auto;
+  margin: 0.5rem auto 0 auto;
   color: rgb(66, 66, 66);
 }
 
@@ -50,12 +50,12 @@ hr {
 
 .reviewbottom button {
   border: none;
-  background-color: #30BF46;
+  background-color: #30bf46;
   font-size: 1rem;
   color: white;
   font-family: lato;
-  padding: .5rem .5rem;
-  border-radius: .5rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
@@ -64,12 +64,12 @@ hr {
 }
 
 .agree {
-  color: #6AD941;
+  color: #6ad941;
   font-family: lato;
 }
 
 .disagree {
-  color: #F03B3B;
+  color: #f03b3b;
   font-family: lato;
 }
 

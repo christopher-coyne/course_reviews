@@ -6,7 +6,14 @@
   width: 70%;
 }
 
+#profContainer {
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 80%;
+}
+
 #homeBlurb {
   margin: auto;
 }
-

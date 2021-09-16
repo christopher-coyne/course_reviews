@@ -1,10 +1,10 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Graph from '../components/Graph'
-import Footer from '../components/Footer'
-import Hotreviews from '../components/Hotreviews'
-import Popularclasses from '../components/Popularclasses'
-import style from '../css/Homepage.module.css'
+import React from "react";
+import Navbar from "../components/Navbar/Navbar";
+import Graph from "../components/Graph";
+import Footer from "../components/Footer/Footer";
+import Hotreviews from "../components/Hotreviews/Hotreviews";
+import Popularclasses from "../components/Popularclasses";
+import style from "../css/Homepage.module.css";
 
 const Homepage = () => {
   return (
@@ -12,9 +12,12 @@ const Homepage = () => {
       <Navbar />
       <div id={style.mainContainer}>
         <h1 id={style.homeBlurb}>
-          Explore  100s of Reviews of Columbia Classes and Professors 
+          Explore 100s of Reviews of Columbia Classes and Professors
         </h1>
-        <p>Anonymous reviews taken from CULPA’s API, accessible here: http://culpa-team.github.io/api/</p>
+        <p>
+          Anonymous reviews taken from CULPA’s API, accessible here:
+          http://culpa-team.github.io/api/
+        </p>
         <Graph />
         <h1>Hot Reviews</h1>
         <Hotreviews />
@@ -23,7 +26,7 @@ const Homepage = () => {
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Homepage
+export default Homepage;

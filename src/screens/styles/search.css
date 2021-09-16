@@ -1,0 +1,9 @@
+.resContainer {
+  text-align: left;
+}
+
+.resContainer h3 {
+  font-family: roboto slab;
+  color: #ffae34;
+  font-size: 20px;
+}
