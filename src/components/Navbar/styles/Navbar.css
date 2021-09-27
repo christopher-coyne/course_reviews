@@ -1,6 +1,8 @@
 .navContainer {
   background-color: rgb(238, 238, 238);
   text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .innerNav {
@@ -82,4 +84,35 @@ button {
 
 #basic-typeahead-single {
   width: 100%;
+}
+
+.nav-button {
+  height: 100%;
+  padding-left: 0.32rem;
+  padding-right: 0.32rem;
+  border-radius: 5px;
+  border: 2px solid rgb(39, 156, 57);
+  color: rgb(39, 156, 57);
+  margin-left: 0.5rem;
+}
+
+.nav-button:hover {
+  background-color: rgb(39, 156, 57);
+  border: 2px solid rgb(39, 156, 57);
+  color: white;
+}
+
+/*
+.fa-search {
+  color: green
+} */
+
+.search-btn {
+  background-color: #6ad941 !important;
+  border: 1px solid #6ad941 !important;
+}
+
+.search-btn:hover {
+  background-color: rgb(39, 156, 57) !important;
+  border: 1px solid rgb(39, 156, 57) !important;
 }

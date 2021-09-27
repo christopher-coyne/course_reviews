@@ -1,0 +1,6 @@
+@media (min-width: 1000px) {
+  #submit-form {
+    width: 600px;
+    margin: auto;
+  }
+}

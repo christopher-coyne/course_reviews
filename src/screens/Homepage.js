@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-import Graph from "../components/Graph";
+import Graph from "../components/Graph/Graph";
 import Footer from "../components/Footer/Footer";
 import Hotreviews from "../components/Hotreviews/Hotreviews";
 import Popularclasses from "../components/Popularclasses";

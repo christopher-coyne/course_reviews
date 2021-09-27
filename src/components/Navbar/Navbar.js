@@ -39,21 +39,6 @@ const Navbar = props => {
     if (newOptions.length >= 10) newOptions = newOptions.slice(0, 10)
     setOptions(newOptions)
     setIsLoading(false)
-
-    /*
-    fetch(`${'/'}?q=${query}+in:login&page=1&per_page=50`)
-      .then((resp) => resp.json())
-      .then(({ items }) => {
-        const options = items.map((i) => ({
-          avatar_url: i.avatar_url,
-          id: i.id,
-          login: i.login,
-        }));
-
-        setOptions(options);
-        setIsLoading(false);
-      });
-      */
     
   }
 
@@ -72,12 +57,12 @@ const Navbar = props => {
     <Container fluid className="navContainer">
       <Container className="innerNav">
       <Row>
-      <Col className="col-2 col">
+      <Col lg="2" className='d-lg-block d-md-none d-sm-none d-xs-none'>
         <div id="logo">
           <span id="mea">Mea</span>Culpa
         </div>
       </Col>
-      <Col className="col-8 col">
+      <Col md="8" lg="8">
           <Form.Group className="tester">
             <InputGroup>
             <Typeahead
@@ -93,7 +78,7 @@ const Navbar = props => {
             />
             <InputGroup.Append>
               <Button
-                className="btn"
+                className="btn search-btn"
                 onClick={() => getSearchResults()}
                 variant="outline-secondary">
                 <i class="fas fa-search"></i>
@@ -102,19 +87,20 @@ const Navbar = props => {
             </InputGroup>
           </Form.Group>
           </Col>
-        <Col className="col-2 col">
+        <Col md="4" lg="2">
           <button type="button" className="nav-button">
             Submit
           </button>
-          <button type="button" className="nav-button">
+          <button type="button" className="nav-button" id="login-btn">
             Login
           </button>
           </Col>
-      <i className="far fa-circle"></i>
       </Row>
       </Container>
     </Container>
   );
 };
+
+/* <i className="far fa-circle"></i> */
 
 export default Navbar;
